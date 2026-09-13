@@ -18,8 +18,8 @@ int main()
     }
     cout << "before  -> ";
     cout << bin << endl;
-    // by using left shift,not and And operation to clean the bit(if ith bit is 1 then it will be zero )
-  
+    // by using  And operation to check the num is power of 2 or not?
+
    //the final ans;
     int ans = val & (val-1);
     if(ans==0){
